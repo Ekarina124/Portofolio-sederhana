@@ -15,8 +15,8 @@
   
   /*style untuk header dan navbar */
   header {
-    background-color: #172b38;
-    color: rgb(132, 49, 49);
+    background-color: #136191;
+    color: rgb(202, 148, 148);
     padding: 16px;
     text-align: center;
   }
@@ -63,4 +63,21 @@
     margin-bottom: 1rem;
     border-bottom: 2px solid #e8491d;
     padding-bottom: 0.5rem;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  } 
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
