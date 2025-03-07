@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("project").innerHTML += `
+document.addEventListener("DOMContentLoaded", () => {  
+    document.getElementById("project").innerHTML += `  //mencari elemen dengan id="project", tambah garis baru kedalamnya
         <p>Daftar project:</p> 
-        <ul>
+        <ul> // menambahkan daftar project
             <li>Portfolio Website</li>
             <li>To-Do List</li>
             <li>Weather App</li>
