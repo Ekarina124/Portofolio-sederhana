@@ -42,3 +42,25 @@
   nav a:hover {
     color: #284254;
   }
+
+  /*style untuk konten utama*/
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .section {
+    margin-bottom: 32px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #35424a;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #e8491d;
+    padding-bottom: 0.5rem;
+  }
